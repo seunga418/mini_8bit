@@ -9,7 +9,7 @@ a {
 }
 
 .top {
-    background-color: rgb(52,99,129);
+    background-color: #5E9893;
     width: 100%;
     height: 65px;
     
@@ -25,7 +25,7 @@ a {
     font-size: 15px; 
     font-weight: bold;
     margin-left: 15px;
-    color: rgb(52,99,129);
+    color: #5E9893;
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -75,7 +75,7 @@ a {
     border: none;
     cursor: pointer;
     font-size: 14px;
-    color: rgb(52,99,129);
+    color: #5E9893;
     user-select: none;
 }
 
@@ -106,7 +106,7 @@ footer {
     left: 0; 
     width: 100%;
     height: 87px;
-    color: rgb(52,99,129);
+    color: #5E9893;
     background-color: #fff;
     display: flex;  
     justify-content: space-between; /* 좌우로 공간 배분 */
@@ -174,7 +174,7 @@ footer {
     left: 50%;
     transform: translateX(-50%);  /* 정확한 중앙 정렬 */
     padding: 12px 70px;
-    background-color: rgb(52,99,129);
+    background-color: #5E9893;
     color: #fff;
     border-radius: 8px;
     border: none;
@@ -206,7 +206,7 @@ footer {
     /* width: 100%; */
     /* max-width: 300px; */
     padding: 12px 180px;
-    background-color: rgb(52,99,129);
+    background-color: #5E9893;
     color: #fff;
     border-radius: 6px;
     border: none;
@@ -219,7 +219,7 @@ footer {
 
 
 .login {
-    color: rgb(52,99,129);
+    color: #5E9893;
     font-size: 33px;
     font-family:'나눔고딕';
     font-weight: bold;
@@ -247,7 +247,7 @@ form {
 .input-group label {
     font-weight: bold;
     margin-bottom: 6px;
-    color: rgb(52,99,129);
+    color: #5E9893;
     font-size: 16px;
 }
 .input-group input {
