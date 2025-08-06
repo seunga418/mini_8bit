@@ -8,7 +8,7 @@ a {
   text-decoration: none;  /* 밑줄 제거 */
 }
 .top {
-    background-color: rgb(52,99,129);
+    background-color: #5E9893;
     width: 100%;
     height: 65px;
     
@@ -24,7 +24,7 @@ a {
     font-size: 15px; 
     font-weight: bold;
     margin-left: 15px;
-    color: rgb(52,99,129);
+    color: #5E9893;
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -74,7 +74,7 @@ a {
     border: none;
     cursor: pointer;
     font-size: 14px;
-    color: rgb(52,99,129);
+    color: #5E9893;
     user-select: none;
 }
 
@@ -105,7 +105,7 @@ footer {
     left: 0; 
     width: 100%;
     height: 87px;
-    color: rgb(52,99,129);
+    color: #5E9893;
     background-color: #fff;
     display: flex;  
     justify-content: space-between; /* 좌우로 공간 배분 */
@@ -179,7 +179,7 @@ footer {
     border: none;
     cursor: pointer;
     font-size: 14px;
-    color: rgb(52,99,129);
+    color: #5E9893;
     user-select: none;
 }
 
@@ -236,13 +236,13 @@ footer {
 
 
 #searchInput:focus {
-    border-color: rgb(52,99,129);
+    border-color: #5E9893;
 }
 
 #searchBtn {
     padding: 8px 20px;
     font-size: 16px;
-    background-color: rgb(52,99,129);
+    background-color: #5E9893;
     color: white;
     border: none;
     border-radius: 8px;
@@ -252,7 +252,7 @@ footer {
 }
 
 #searchBtn:hover {
-    background-color: rgb(40,75,100);
+    background-color: #5E9893;
 }
 /* 새로 추가한 학반 드롭다운 스타일 */
 #classSelect {
@@ -299,10 +299,10 @@ footer {
 
 .tb thead {
     background-color: #eeeeee; 
-    border-top: 5px solid rgb(52,99,129);
+    border-top: 5px solid #5E9893;
     /* border-bottom: 3px solid rgb(52,99,129); */
     /* 아랫줄 */
-    color: rgb(52,99,129);
+    color: #5E9893;
 }
 
 .tb thead th {
@@ -340,7 +340,7 @@ a {
   text-decoration: none;  /* 밑줄 제거 */
 }
 .top {
-    background-color: rgb(52,99,129);
+    background-color: #5E9893;
     width: 100%;
     height: 65px;
     
@@ -356,7 +356,7 @@ a {
     font-size: 15px; 
     font-weight: bold;
     margin-left: 15px;
-    color: rgb(52,99,129);
+    color: #5E9893;
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -406,7 +406,7 @@ a {
     border: none;
     cursor: pointer;
     font-size: 14px;
-    color: rgb(52,99,129);
+    color: #5E9893;
     user-select: none;
 }
 
@@ -437,7 +437,7 @@ footer {
     left: 0; 
     width: 100%;
     height: 87px;
-    color: rgb(52,99,129);
+    color: #5E9893;
     background-color: #fff;
     display: flex;  
     justify-content: space-between; /* 좌우로 공간 배분 */
@@ -511,7 +511,7 @@ footer {
     border: none;
     cursor: pointer;
     font-size: 14px;
-    color: rgb(52,99,129);
+    color: #5E9893;
     user-select: none;
 }
 
@@ -568,13 +568,13 @@ footer {
 
 
 #searchInput:focus {
-    border-color: rgb(52,99,129);
+    border-color: #5E9893;
 }
 
 #searchBtn {
     padding: 8px 20px;
     font-size: 16px;
-    background-color: rgb(52,99,129);
+    background-color: #5E9893;
     color: white;
     border: none;
     border-radius: 8px;
@@ -584,7 +584,7 @@ footer {
 }
 
 #searchBtn:hover {
-    background-color: rgb(40,75,100);
+    background-color: #5E9893;
 }
 /* 새로 추가한 학반 드롭다운 스타일 */
 #classSelect {
@@ -631,7 +631,7 @@ footer {
 
 .tb thead {
     background-color: #eeeeee; 
-    border-top: 5px solid rgb(52,99,129);
+    border-top: 5px solid #5E9893;
     /* border-bottom: 3px solid rgb(52,99,129); */
     /* 아랫줄 */
     color: rgb(52,99,129);
