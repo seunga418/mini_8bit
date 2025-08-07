@@ -276,11 +276,11 @@ body {
   .tb {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 10px; /* 이 값을 30px에서 10px로 수정합니다. */
+    margin-top: 10px; /* 원하는 표 위치를 위한 값 (예시) */
     font-weight: normal;
     font-size: 15px;
     height: 270px;
-  }
+}
   
   .tb tbody tr:nth-child(even) {
     background-color: #eeee;
