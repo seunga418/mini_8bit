@@ -337,3 +337,32 @@ body {
     color: #5e9893;
     user-select: none;
   }
+
+  #teacher {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    color: #5e9893;
+    user-select: none;
+  }
+  
+  .nextPage-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .page-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 28px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #5e9893;
+    font-size: 13px;
+  }
