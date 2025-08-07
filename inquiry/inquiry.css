@@ -352,17 +352,35 @@ body {
     justify-content: center;
     margin-top: 20px;
   }
-  
+
   .page-link {
-    display: flex;
-    justify-content: center;
+    display: inline-flex;
     align-items: center;
-    width: 24px;
-    height: 28px;
-    margin: 0 5px;
+    justify-content: center;
+  
+    width: 32px;
+    height: 32px;
+    margin: 0 4px;
+  
+    font-size: 14px;
+    font-weight: 500;
+  
     border: 1px solid #ccc;
-    border-radius: 5px;
-    text-decoration: none;
+    border-radius: 6px;
+  
+    background-color: #fff;
     color: #5e9893;
-    font-size: 13px;
+    text-decoration: none;
+  
+    transition: background-color 0.2s ease;
+    cursor: pointer;
+  }
+  
+  .page-link:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .page-link.active {
+    background-color: #5e9893;
+    color: white;
   }

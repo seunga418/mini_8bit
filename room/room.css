@@ -691,3 +691,51 @@ footer {
     color: #5e9893;
     font-size: 13px;
   }
+
+  /* 페이지네이션 전체 컨테이너 */
+.nextPage-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  /* 기본 버튼 스타일 */
+  .page-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  
+    width: 32px;
+    height: 32px;
+  
+    margin: 0 4px;
+  
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Noto Sans KR', sans-serif;
+  
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  
+    background-color: #fff;
+    color: #5e9893;
+    text-decoration: none;
+    cursor: pointer;
+  
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+  
+  /* hover 효과 */
+  .page-link:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* 클릭된(active) 상태 */
+  .page-link.active {
+    background-color: #5e9893;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #5e9893;
+  }
+  
