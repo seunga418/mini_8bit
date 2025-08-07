@@ -139,15 +139,14 @@ body {
     background-color: #fff;
     margin: 0 auto;
     font-weight: bold;
-    margin-top: 35px;
-    /* margin-bottom: 100px;  */
+    margin-top: 35px; /* 원래 값 유지 */
+    /* margin-bottom: 100px; */
     /* display: flex; */
     align-items: flex-start;
     justify-content: space-between;
     font-size: 17px;
     border-radius: 25px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-  
     position: relative;
     display: block;
     padding: 20px 30px;
@@ -277,7 +276,7 @@ body {
   .tb {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 30px;
+    margin-top: 10px; /* 이 값을 30px에서 10px로 수정합니다. */
     font-weight: normal;
     font-size: 15px;
     height: 270px;
