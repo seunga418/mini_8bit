@@ -182,29 +182,8 @@ footer {
     font-weight: bold;
 }
 
-/* .loginbox {
-    position: absolute;
-    bottom: 30px;
-    left: 50%;
-    transform: translateX(-50%); 
-    padding: 10px 190px;
-    background-color: rgb(52,99,129);
-    color: #fff;
-    border-radius: 6px;
-    border: none;
-    cursor: pointer;
-    white-space: nowrap;
-    font-size: 15px;
-} */
 
 .loginbox {
-    /* position: absolute; */
-    /* bottom: 30px; */
-    /* left: 50%; */
-    /* transform: translateX(-50%); */
-
-    /* width: 100%; */
-    /* max-width: 300px; */
     padding: 12px 180px;
     background-color: #5E9893;
     color: #fff;
