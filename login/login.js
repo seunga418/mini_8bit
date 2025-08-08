@@ -37,4 +37,4 @@ document.addEventListener('DOMContentLoaded', function () {
           alert('서버에 연결할 수 없습니다.');
         });
     });
-  });  
+  });

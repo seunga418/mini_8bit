@@ -118,4 +118,21 @@ document.addEventListener("DOMContentLoaded", () => {
       button?.setAttribute("aria-expanded", "false");
     }
   });
+
+  const pageLinks = document.querySelectorAll('.page-link');
+
+  pageLinks.forEach(link => {
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+
+      // ◀▶ 버튼은 무시
+      if (link.textContent === '◀' || link.textContent === '▶') return;
+
+      // 모든 페이지 버튼에서 active 제거
+      pageLinks.forEach(l => l.classList.remove('active'));
+
+      // 클릭된 버튼에 active 클래스 추가
+      link.classList.add('active');
+    });
+  });
 });
