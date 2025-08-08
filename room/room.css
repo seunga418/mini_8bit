@@ -359,3 +359,133 @@ footer {
     font-weight: bold;
     border: 1px solid #5e9893;
 }
+
+@media (max-width: 768px) {
+    .box {
+      width: 90%;
+      height: auto;
+      margin-top: 70px;
+      margin-bottom: 120px;
+      padding: 15px 20px;
+      border-radius: 20px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .long-line {
+      width: 90%;
+      left: 5%;
+      top: 40px;
+    }
+  
+    .menu {
+      gap: 30px;
+      height: 50px;
+    }
+  
+    .menu1 {
+      margin: 0 10px;
+      font-size: 16px;
+    }
+  
+    .top {
+      height: 50px;
+      padding: 0 10px;
+    }
+  
+    .logo img {
+      height: 30px;
+      margin-top: 0;
+      margin-left: 0;
+    }
+  
+    .search-container {
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    /* 학반 드롭다운과 검색창의 너비를 동일하게 설정 */
+    #classSelect,
+    #searchInput {
+      width: 48%; /* 너비를 48%로 설정해 한 줄에 나란히 배치 */
+      margin-bottom: 10px;
+      box-sizing: border-box;
+    }
+  
+    #searchBtn {
+      width: 100%; /* 검색 버튼은 한 줄 전체를 차지하도록 설정 */
+      margin-bottom: 0;
+    }
+    
+    footer {
+      flex-direction: column;
+      height: auto;
+      padding: 10px 10px;
+      gap: 10px;
+      text-align: center;
+    }
+  
+    .footer-text {
+      margin-left: 0;
+      gap: 3px;
+    }
+  
+    .logo2 {
+      margin: 0 auto 10px;
+      width: 40px;
+    }
+  }
+  
+  /* 모바일 (480px 이하) */
+  @media (max-width: 480px) {
+    .menu {
+      flex-direction: column;
+      gap: 10px;
+      height: auto;
+      padding: 10px 0;
+    }
+  
+    .menu1 {
+      margin: 0;
+      font-size: 14px;
+    }
+  
+    .box {
+      width: 90%;
+      max-width: 320px;
+      height: auto;
+      padding: 15px 15px;
+      border-radius: 15px;
+    }
+    
+    .long-line {
+      width: 80%;
+      left: 10%;
+      top: 35px;
+    }
+  
+    .search-container {
+      flex-direction: column;
+      align-items: stretch;
+    }
+    
+    /* 모든 요소를 한 줄에 하나씩 배치하고 너비는 100%로 설정 */
+    #classSelect,
+    #searchInput,
+    #searchBtn {
+      width: 100%;
+      margin-bottom: 5px;
+      box-sizing: border-box;
+    }
+    
+    .tb {
+      font-size: 12px;
+      table-layout: fixed;
+    }
+  
+    .tb th, .tb td {
+      padding: 8px 3px;
+    }
+  }
+  
