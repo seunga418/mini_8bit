@@ -91,8 +91,15 @@ document.addEventListener("DOMContentLoaded", () => {
       a.textContent = "로그아웃하기";
       a.href = "../main/main.html";
       a.style.textDecoration = "none";
-      a.style.color = "#333";
-      a.style.display = "block";
+      a.style.backgroundColor = "#ffff";
+      a.style.color = "#ef5350";
+      a.style.padding = "10px 22px";
+      a.style.borderRadius = "8px";
+      a.style.boxSizing = "border-box";
+      a.style.textAlign = "center";
+      a.style.fontWeight = "bold";
+      a.style.fontSize = "14px";
+
 
       a.addEventListener("click", (e) => {
         e.stopPropagation(); // 외부 클릭 이벤트 차단
