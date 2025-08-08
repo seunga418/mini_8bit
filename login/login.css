@@ -257,3 +257,105 @@ form {
 .logins a:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+    .box {
+      width: 90%;
+      height: auto;
+      margin-top: 70px;
+      margin-bottom: 120px;
+      padding: 15px 20px;
+      border-radius: 20px;
+    }
+  
+    .long-line {
+      width: 90%;
+      left: 5%;
+      top: 40px;
+    }
+  
+    .laptop {
+      position: static;
+      width: 100%;
+      max-width: 300px;
+      margin: 20px auto 0;
+      display: block;
+    }
+  
+    .checking {
+      position: static;
+      margin: 30px auto 20px;
+      display: block;
+      width: 80%;
+      max-width: 300px;
+      transform: none;
+      padding: 12px 0;
+    }
+  
+    .menu {
+      gap: 30px;
+      height: 50px;
+    }
+  
+    .menu1 {
+      margin: 0 10px;
+      font-size: 16px;
+    }
+  
+    .top {
+      height: 50px;
+      padding: 0 10px;
+    }
+  
+    .logo img {
+      height: 30px;
+      margin-top: 0;
+      margin-left: 0;
+    }
+  
+    footer {
+      flex-direction: column;
+      height: auto;
+      padding: 10px 10px;
+      gap: 10px;
+      text-align: center;
+    }
+  
+    .footer-text {
+      margin-left: 0;
+      gap: 3px;
+    }
+  
+    .logo2 {
+      margin: 0 auto 10px;
+      width: 40px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .menu {
+      flex-direction: column;
+      gap: 10px;
+      height: auto;
+      padding: 10px 0;
+    }
+  
+    .menu1 {
+      margin: 0;
+      font-size: 14px;
+    }
+  
+    .box {
+      padding: 15px 15px;
+      border-radius: 15px;
+    }
+  
+    .checking {
+      width: 100%;
+      max-width: none;
+    }
+  
+    .laptop {
+      max-width: 100%;
+    }
+  }
