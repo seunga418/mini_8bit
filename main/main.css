@@ -208,7 +208,6 @@ footer {
         background-color: #5E9893;
         width: 100%;
         height: 65px;
-        
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -624,7 +623,7 @@ body {
     text-decoration: none; /* 밑줄 제거 */
   }
   .top {
-    background-color: #679996;
+    background-color: #5E9893;
     width: 100%;
     height: 65px;
   
@@ -640,7 +639,7 @@ body {
     font-size: 15px;
     font-weight: bold;
     margin-left: 15px;
-    color: #679996;
+    color: #5E9893;
     border: none;
     border-radius: 8px;
     cursor: pointer;
